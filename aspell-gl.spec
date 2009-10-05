@@ -8,7 +8,7 @@
 %define lc_ctype gl_ES
 
 Summary:       %{languageenglazy} files for aspell
-Name:          aspell6-%{languagecode}
+Name:          aspell-%{languagecode}
 Version:       0.5a.2
 Release:       %mkrel 3
 Group:         System/Internationalization
@@ -18,9 +18,9 @@ License:	   GPL
 BuildRoot:     %{_tmppath}/%{name}-%{version}-root
 Provides: spell-%{languagecode}
 
-BuildRequires: aspell >= 0.50
+BuildRequires: aspell >= 0.60
 BuildRequires: make
-Requires:      aspell >= 0.50
+Requires:      aspell >= 0.60
 
 # Mandriva Stuff
 Requires:      locales-%{languagecode}
