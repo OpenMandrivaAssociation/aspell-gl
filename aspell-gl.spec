@@ -36,7 +36,7 @@ Autoreqprov:   no
 A %{languageenglazy} dictionary for use with aspell, a spelling checker.
 
 %prep
-%setup -q -n %{name}-%{src_ver}
+%setup -q -n aspell6-%{src_ver}
 
 %build
 
