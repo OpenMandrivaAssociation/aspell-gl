@@ -36,7 +36,7 @@ Autoreqprov:   no
 A %{languageenglazy} dictionary for use with aspell, a spelling checker.
 
 %prep
-%setup -q -n aspell6-%{src_ver}
+%setup -q -n aspell6-gl-%{src_ver}
 
 %build
 
@@ -61,5 +61,3 @@ rm -fr $RPM_BUILD_ROOT
 %doc README.%{languagecode} Copyright 
 %doc doc/*
 %{_libdir}/aspell-*/*
-
-
