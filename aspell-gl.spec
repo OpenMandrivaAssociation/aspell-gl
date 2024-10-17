@@ -13,7 +13,7 @@ Epoch:		1
 Version:	0.5a.2
 Release:	17
 Group:		System/Internationalization
-Url:		http://aspell.net/
+Url:		https://aspell.net/
 License:	GPLv2
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell6-%{languagecode}-%{src_ver}.tar.bz2
 
