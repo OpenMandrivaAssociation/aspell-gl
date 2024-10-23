@@ -10,8 +10,8 @@
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Epoch:		1
-Version:	0.5a.2
-Release:	17
+Version:	0.5a_2
+Release:	1
 Group:		System/Internationalization
 Url:		https://aspell.net/
 License:	GPLv2
